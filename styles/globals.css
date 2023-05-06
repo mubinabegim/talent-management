@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+
+}
+/* @layer components {
+  .h1{
+
+    @apply text-red-500;
+
+  }
+} */

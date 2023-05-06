@@ -1,0 +1,12 @@
+.h1 {
+  @apply text-red-500;
+}
+.logoText{
+  @apply uppercase;
+}
+.nav{
+  @apply flex justify-between items-center
+}
+.nav__item{
+  @apply inline-block mx-3
+}
