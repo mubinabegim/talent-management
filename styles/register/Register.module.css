@@ -1,0 +1,46 @@
+.registerContainer{
+    @apply  flex  justify-center mx-auto items-center  flex-col
+}
+.ButtonAndLink{
+    @apply bg-indigo-700 max-w-[240px] text-white rounded-xl  py-2.5 px-3 text-lg text-center  font-light
+}
+.inputLabel{
+    @apply text-sm block p-1 text-start text-violet-800
+}
+.input{
+    @apply border-2 rounded-lg  min-w-[300px] p-1 border-indigo-700
+}
+.card{
+    @apply relative border-2 border-indigo-700 rounded-xl p-5 my-5 min-w-[340px]
+}
+.card span{
+    @apply text-indigo-700
+}
+.cardHeader{
+    @apply flex items-center gap-2 mb-6
+}
+.paragraph{
+    @apply text-2xl text-violet-800 text-center
+}
+.cardInfo{
+    @apply p-2 rounded-xl border-indigo-800 border-2
+}
+.userScore{
+    @apply text-2xl text-indigo-800 font-medium
+}
+.otherInfo{
+    @apply  mb-3 flex items-center justify-center border-2 border-indigo-600 rounded-2xl min-h-[140px] max-w-[250px] text-center
+}
+.completeBadge{
+    @apply absolute w-[60%] left-[73%] top-[70%]
+}
+.progressBarContainer{
+    @apply rounded-xl border-2 border-indigo-800
+}
+
+.progress{
+    @apply p-2 bg-indigo-500  rounded-lg w-[93%]
+}
+.userName{
+@apply border-2 border-indigo-800 rounded-xl px-2 w-full text-center
+}

@@ -1,0 +1,30 @@
+.stepsWrapper {
+    @apply relative flex justify-between gap-4 mb-2 mt-20;
+}
+
+.dottedLine {
+    @apply absolute;
+    width: calc(100% - 100px);
+    left: 50px;
+    top: 25px;
+    z-index: 1;
+    border-top: 4px dotted rgb(67 56 202);
+}
+
+.step {
+    @apply flex flex-col gap-1 text-center min-w-[100px] text-sm;
+    z-index: 9;
+}
+
+.step>span:first-child {
+    @apply flex justify-center items-center mx-auto bg-indigo-700 border-2 border-indigo-700;
+    height: 50px;
+    width: 50px;
+    color: white;
+    border-radius: 50%;
+}
+
+.activeStep {
+    color: rgb(67 56 202) !important;
+    background: white !important;
+}

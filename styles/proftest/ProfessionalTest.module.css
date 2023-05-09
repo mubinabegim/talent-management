@@ -1,0 +1,43 @@
+.heading {
+    @apply text-4xl font-semibold text-center my-2
+}
+.headingSecondary{
+    @apply text-3xl
+}
+.header {
+    @apply mt-8 mb-4 max-w-[60%] mx-auto
+}
+
+.startContainer {
+    @apply flex items-center justify-evenly my-10
+}
+
+.infoItem {
+    @apply flex items-center gap-2 min-w-[270px]
+}
+
+.circle {
+    @apply rounded-full bg-indigo-700;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.infoChain {
+    @apply relative border-l-4 border-indigo-700 h-[620px]
+}
+
+.infoText p {
+    @apply text-xl font-light
+}
+
+.infoText span {
+    @apply font-light text-sm
+}
+
+.startImg {
+    @apply w-[400px]
+}
+
+.chartContainer{
+    @apply flex items-center justify-around
+}
