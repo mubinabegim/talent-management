@@ -5,14 +5,16 @@ interface IInput {
     label?: string;
     placeholder?: string;
     classes?: string;
+    inputWidth?: any;
+    wrapperWidth?: any;
 }
 
-const Input: FC<IInput> = ({ type = "text", label, placeholder, classes }) => {
+const Input: FC<IInput> = ({ type = "text", label, placeholder, classes, inputWidth }) => {
     const labelLower = label?.toLowerCase();
     return (
         <div>
             <label className={regStyles.inputLabel} htmlFor={labelLower}>{label}</label>
-            <input className={`${regStyles.input} ${classes}`} type={type} id={labelLower} placeholder={placeholder} />
+            <input className={`${regStyles.input} ${inputWidth} ${classes}`} type={type} id={labelLower} placeholder={placeholder} />
         </div>
     )
 }

@@ -2,7 +2,7 @@ import { Button, Input } from "@/components"
 import SelectOption from "@/components/select"
 import { inputStyles, regStyles, testStyles } from "@/styles"
 import { useRouter } from "next/router"
-import { FaCheckSquare, FaUser, FaUserAlt, FaUserCircle } from "react-icons/fa"
+import { FaCheckSquare, FaChessBoard, FaRegCheckSquare, FaUser, FaUserAlt, FaUserCircle } from "react-icons/fa"
 
 const LastVerifyPage = () => {
     const router = useRouter()
@@ -19,19 +19,19 @@ const LastVerifyPage = () => {
                             <li className="my-2">Python test</li>
                         </ul>
                         <div className="text-center flex items-center justify-center flex-col">
-                            <div> <FaUserCircle className="text-7xl"/></div>
+                            <div> <FaUserCircle className="text-7xl" /></div>
                             <span>+9989777-77-77</span>
                             <p className="font-extrabold text-lg">Jandos Jandosov</p>
 
                         </div>
                     </div>
-                     <div>
-                        <FaCheckSquare className="text-7xl"/>
+                    <div className="text-center flex items-center flex-col justify-center py-8">
+                        <FaRegCheckSquare className="text-7xl mt-2 mb-4" />
                         <p>Thank you for booking! The administrator will contact you to confirm the booking details.</p>
-                     </div>
+                    </div>
 
                     <div className="mb-5 text-center">
-                        <Button onClick={() => router.push('/verifications/components/last-verify')} title="Go to my profile" />
+                        <Button onClick={() => router.push('/profile')} title="Go to my profile" />
                     </div>
                 </div>
             </div>

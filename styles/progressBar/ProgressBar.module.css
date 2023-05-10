@@ -1,0 +1,23 @@
+.progress {
+  opacity: 0;
+}
+
+.progressContainer {
+  @apply rounded-xl border-2 border-indigo-800;
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  overflow: hidden;
+}
+
+.progressContainer::before {
+  @apply bg-indigo-500  rounded-lg;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}

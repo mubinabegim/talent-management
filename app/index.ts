@@ -23,3 +23,5 @@ export { default as TestPage } from "./verifications/components/firstVerifyCompo
 export { default as SecondVerifyPage } from "./verifications/components/secondVerify"
 export { default as ThirdVerifyPage } from "./verifications/components/thirdVerify"
 export { default as LastVerifyPage } from "./verifications/components/lastVerify"
+
+export { default as ProfilePage } from "./profile";
