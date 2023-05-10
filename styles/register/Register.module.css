@@ -20,7 +20,7 @@
     @apply flex items-center gap-2 mb-6
 }
 .paragraph{
-    @apply text-2xl text-violet-800 text-center
+    @apply text-2xl text-indigo-700 text-center
 }
 .cardInfo{
     @apply p-2 rounded-xl border-indigo-800 border-2

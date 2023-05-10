@@ -16,6 +16,7 @@
     @apply flex items-center gap-2 min-w-[270px]
 }
 
+
 .circle {
     @apply rounded-full bg-indigo-700;
     width: 40px !important;
@@ -38,6 +39,24 @@
     @apply w-[400px]
 }
 
+.chartText{
+    @apply max-w-[45%] text-lg text-gray-600
+}
 .chartContainer{
-    @apply flex items-center justify-around
+    @apply flex items-center justify-between min-w-[0]
+}
+.chartItem{
+   @apply mt-10 mb-3
+}
+.chartFooter{
+    @apply mt-32 mb-8
+}
+.chartFooter p{
+    @apply text-center my-6 text-gray-600
+}
+.chartFooter p:first-child{
+    @apply text-indigo-700
+}
+.resultContainer{
+    @apply max-w-[70%]  mx-auto
 }
