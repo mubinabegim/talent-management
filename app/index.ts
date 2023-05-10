@@ -1,20 +1,25 @@
-export {default as HomePage} from './homePage';
-export {default as RegisterPage} from './signup/register'
-export {default as SignUpPage} from './signup/generals';
-export {default as GeneralInformationPage} from './signup/generals';
-export {default as DirectionsPage} from './signup/directions';
-export {default as TestSectionPage} from './signup/testSection';
-export {default as ResultsPage} from './signup/results';
-export {default as FirstProfilePage} from './signup/profileCreated';
-export {default as ProfessionalTest} from './signup/professionalTest';
-export {default as PersonalityQuestionsPage } from './signup/professionalTest/components/personalityQuestions';
-export {default as CareerQuestionsPage } from './signup/professionalTest/components/careerQuestions';
-export {default as InterestIdentificationPage } from './signup/professionalTest/components/interestIdentification';
-export {default as ResultsPageSecond } from './signup/professionalTest/components/results';
-export {default as DetailedSkillsPage} from './signup/detailedSkills';
-export {default as ExamPage} from './signup/detailedSkills/components/exam';
-export {default as PassedExamPage} from './signup/detailedSkills/components/exam/examResult/passed/congrats';
-export {default as AdditionalSkillsPage} from './signup/detailedSkills/components/exam/examResult/passed/additionalSkills';
-export {default as TestWindowPage} from './signup/detailedSkills/components/exam/examResult/passed/testWindow';
-export {default as LastPage} from './signup/detailedSkills/components/exam/examResult/passed/lastPage';
-export {default as FailedExamPage} from './signup/detailedSkills/components/exam/examResult/failed';
+export { default as HomePage } from "./homePage";
+export { default as RegisterPage } from "./signup/register";
+export { default as SignUpPage } from "./signup/generals";
+export { default as GeneralInformationPage } from "./signup/generals";
+export { default as DirectionsPage } from "./signup/directions";
+export { default as TestSectionPage } from "./signup/testSection";
+export { default as ResultsPage } from "./signup/results";
+export { default as FirstProfilePage } from "./signup/profileCreated";
+export { default as ProfessionalTest } from "./signup/professionalTest";
+export { default as PersonalityQuestionsPage } from "./signup/professionalTest/components/personalityQuestions";
+export { default as CareerQuestionsPage } from "./signup/professionalTest/components/careerQuestions";
+export { default as InterestIdentificationPage } from "./signup/professionalTest/components/interestIdentification";
+export { default as ResultsPageSecond } from "./signup/professionalTest/components/results";
+export { default as DetailedSkillsPage } from "./signup/detailedSkills";
+export { default as ExamPage } from "./signup/detailedSkills/components/exam";
+export { default as PassedExamPage } from "./signup/detailedSkills/components/exam/examResult/passed/congrats";
+export { default as AdditionalSkillsPage } from "./signup/detailedSkills/components/exam/examResult/passed/additionalSkills";
+export { default as TestWindowPage } from "./signup/detailedSkills/components/exam/examResult/passed/testWindow";
+export { default as LastPage } from "./signup/detailedSkills/components/exam/examResult/passed/lastPage";
+export { default as FailedExamPage } from "./signup/detailedSkills/components/exam/examResult/failed";
+export { default as MainVerifyComponent } from "./verifications";
+export { default as TestPage } from "./verifications/components/firstVerifyComponent";
+export { default as SecondVerifyPage } from "./verifications/components/secondVerify"
+export { default as ThirdVerifyPage } from "./verifications/components/thirdVerify"
+export { default as LastVerifyPage } from "./verifications/components/lastVerify"
