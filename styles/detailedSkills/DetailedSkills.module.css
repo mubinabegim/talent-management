@@ -1,0 +1,23 @@
+.timeContainer{
+    @apply flex justify-end gap-2 items-center
+}
+.timeContainer p:first-child{
+    @apply uppercase text-xl
+}
+.timeContainer p:last-child{
+    @apply font-extrabold text-2xl
+}
+.cardsgroup{
+    @apply flex gap-12 justify-between items-center mt-8 mb-14
+}
+.card{
+    @apply border-2 border-indigo-600 rounded-2xl max-w-[250px]
+}
+
+.cardFooter{
+
+    @apply border-t-2 border-indigo-600 py-2 text-center
+}
+.cardHeader{
+    @apply p-4
+}

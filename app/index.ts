@@ -11,3 +11,10 @@ export {default as PersonalityQuestionsPage } from './signup/professionalTest/co
 export {default as CareerQuestionsPage } from './signup/professionalTest/components/careerQuestions';
 export {default as InterestIdentificationPage } from './signup/professionalTest/components/interestIdentification';
 export {default as ResultsPageSecond } from './signup/professionalTest/components/results';
+export {default as DetailedSkillsPage} from './signup/detailedSkills';
+export {default as ExamPage} from './signup/detailedSkills/components/exam';
+export {default as PassedExamPage} from './signup/detailedSkills/components/exam/examResult/passed/congrats';
+export {default as AdditionalSkillsPage} from './signup/detailedSkills/components/exam/examResult/passed/additionalSkills';
+export {default as TestWindowPage} from './signup/detailedSkills/components/exam/examResult/passed/testWindow';
+export {default as LastPage} from './signup/detailedSkills/components/exam/examResult/passed/lastPage';
+export {default as FailedExamPage} from './signup/detailedSkills/components/exam/examResult/failed';

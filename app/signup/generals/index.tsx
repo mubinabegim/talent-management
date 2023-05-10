@@ -26,7 +26,7 @@ const SignUp = () => {
       </div>
       <div className="mb-3">
         <SelectOption label="Country" options={[
-          { label: 'Russia', value: 'ru' },
+          {label: 'Uzbekistan', value:'uz'},
           { label: 'USA', value: 'us' },
           { label: 'Russia', value: 'ru' },]} />
       </div>

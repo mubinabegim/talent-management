@@ -9,8 +9,8 @@ const PersonalityQuestionsPage = () => {
     }
     return (
         <div className="container">
-            <div className=" flex items-center justify-center gap-4 my-6 ">
-                <img className="max-w-[90px]" src="/images/imagination.png" />
+            <div className=" flex items-center justify-center gap-4 mb-6 mt-16">
+                <img className="max-w-[90px]" src="/images/needs.png" />
                 <p className={testStyles.headingSecondary}>Personality question</p>
             </div>
             <TestWindow />

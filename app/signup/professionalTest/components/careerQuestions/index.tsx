@@ -6,7 +6,7 @@ const CareerQuestionsPage = () => {
     const router = useRouter()
     return (
         <div className="container">
-            <div className=" flex items-center justify-center gap-4 my-6 ">
+            <div className=" flex items-center justify-center gap-4 mb-6 mt-16 ">
                 <img className="max-w-[90px]" src="/images/development.png" />
                 <p className={testStyles.headingSecondary}>Career match questions</p>
             </div>

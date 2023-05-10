@@ -53,7 +53,7 @@ const FirstProfilePage = () => {
       <div className="mb-10 mt-8 text-center">
         <Button onClick={() => router.push('/signup/profile')} title="Go to my profile" />
         <div className="my-6">
-          <Button onClick={() => router.push('/signup/')} title="Go to Detailed skills assignment" />
+          <Button onClick={() => router.push('/signup/detailed-skills')} title="Go to Detailed skills assignment" />
 
         </div>
         <Button onClick={() => router.push('/signup/professional-test')} title="Go to Professional orientation test" />

@@ -1,0 +1,12 @@
+.container{
+    @apply flex gap-8 justify-center
+}
+.circleWrapper{
+    @apply flex flex-col-reverse items-center
+}
+.label{
+    @apply text-xs text-center font-semibold text-blue-900
+}
+.circle{
+    @apply rounded-full bg-blue-500
+}
